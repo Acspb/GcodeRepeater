@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GcodeRepeater", "GcodeRepeater.csproj", "{21B59B34-B333-45D8-85B5-DDC593DD8742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GcodeRepeater", "GcodeRepeater.csproj", "{21B59B34-B333-45D8-85B5-DDC593DD8742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GcodeRepeater.Tests", "..\GcodeRepeater.Tests\GcodeRepeater.Tests.csproj", "{5DB9E8A7-2E64-44DF-8917-6A4DE5358905}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{21B59B34-B333-45D8-85B5-DDC593DD8742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21B59B34-B333-45D8-85B5-DDC593DD8742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21B59B34-B333-45D8-85B5-DDC593DD8742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB9E8A7-2E64-44DF-8917-6A4DE5358905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB9E8A7-2E64-44DF-8917-6A4DE5358905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB9E8A7-2E64-44DF-8917-6A4DE5358905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB9E8A7-2E64-44DF-8917-6A4DE5358905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

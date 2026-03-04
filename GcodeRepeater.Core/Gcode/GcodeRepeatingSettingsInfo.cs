@@ -1,6 +1,6 @@
 ﻿namespace GcodeRepeater.Gcode
 {
-    internal class GcodeRepeatingSettingsInfo
+    public class GcodeRepeatingSettingsInfo
     {
         private const string DefaultRepeateGcode = @"; do nothing";
         private const string DefaultPreRepeateGcode = "G92 E0 ; reset extruder offset"; // reset extruder offset
@@ -55,9 +55,9 @@ G1 Y20 F5000 ; drop model";*/
                 this._preRepeatingGcode = value;
             }
         }
-        public string[] SkipCommands { get; internal set; }
-        public string? TargetPath { get; internal set; }
-        public int RepeateCount { get; internal set; }
+        public string[] SkipCommands { get;  set; }
+        public string? TargetPath { get;  set; }
+        public int RepeateCount { get;  set; }
         public GcodeRepeatingSettingsInfo()
         {
             SkipCommands = new string[0];

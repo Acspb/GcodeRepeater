@@ -1,6 +1,6 @@
 ﻿namespace GcodeRepeater.Gcode.Parsers
 {
-    internal class GcodeFileParserFactory : IGcodeFileParserFactory
+    public class GcodeFileParserFactory : IGcodeFileParserFactory
     {
         IGcodeFileParser IGcodeFileParserFactory.GetParser(string path)
         {

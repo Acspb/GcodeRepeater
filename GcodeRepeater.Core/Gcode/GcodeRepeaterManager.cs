@@ -2,7 +2,7 @@
 
 namespace GcodeRepeater.Gcode
 {
-    internal class GcodeRepeaterManager
+    public class GcodeRepeaterManager
     {
         public void Repeate(GcodeRepeatingSettingsInfo gcodeRepeatingSettingsInfo, GcodeFileInfo gcodeFileInfo)
         {

@@ -26,4 +26,8 @@
 	<InternalsVisibleTo Include="GcodeRepeater.Tests" />
 </ItemGroup>
 	
+<ItemGroup>
+  <ProjectReference Include="..\GcodeRepeater.Core\GcodeRepeater.Core.csproj" />
+</ItemGroup>
+	
 </Project>
